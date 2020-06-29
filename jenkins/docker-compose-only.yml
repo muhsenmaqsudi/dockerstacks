@@ -1,8 +1,7 @@
 version: "3.1"
 services:
   jenkins:
-    build:
-      context: .
+    image: jenkinsci/blueocean
     user: root
     ports:
       - 8081:8080
